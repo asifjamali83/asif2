@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Natsu
-cl.login(token="EnnQhUHjKIXr6pNxuqm9.2PYCb4NePL/qaG+RQLepgq.8rXd6F4mBB0YluGTX1lHvTYPFrTWPsIwavynmPx9lqc=")
+cl.login(token="EG4sdd5sXZJvS4yyJrib.iEKLQqr+KXdSVGWpsvd/QW.SGmmmSGl/3ihFv2QN36AaMJJ3aDuscckaLHj9DDTFk4=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #lucy
-ki.login(token="En7kbzdjGoXWvgQqFLw0.lab+yfQThAu5DVTWsikdGa.RNMfAHcTmHZ48lNIbK5lcrvwfsqaxp30In6Oc9CIQFk=")
+ki.login(token="EG6z9RFLuJel6hmRcLL7.jV91kSBcBQYBbqDeoqrrDW.yoyiHG0+f8+lvgjcgm4i5VFRFu5a08YDuXAyscMB1XQ=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Erza
-kk.login(token="EneTFlMaDTEedlDdgfP9.NWfyYB2EJLt4O/oO7Vhvkq.7Y7LNV/ibI1KYqcZxlooNP+tzDKB6A6Io//SFP4UQvs=")
+kk.login(token="EGplnHhHU4WG7JhexeDd.CNZNgt3iUc3fYRhn7Cibxq.8dv/jzZvBajWuuQ40cP9MlY8RfJuNY1WGQwfAnSXeo0=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Gray
-kc.login(token="EnEOrNQ8leTzJEfqHqX6.qpbDRyFbdz+1jnFZrOpXHG.w+Zqw/4gSkWY5zQoDMUIfsll3q5V34BtTyo7yD9m608=")
+kc.login(token="EGsG72RATAOCPEgGcCVa.uA70OmZ6xGXhLjifkBHlgG.ZAENtomaytmH3GDH4LXhAGeM/qeoR8uuQtFKKwaNw7U=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Gajeel
-ks.login(token="Engfrbt9fBkO6Pcxl3d3.0qVjBhHxXNeDfZyBrAcDeW.Pwmzi97wWXJUak2J6iaV9VNxDWr/pk8kWV+xjpO7cCU=")
+ks.login(token="EGzTS8X8b5FZTRJLcPBc.CCslx0hiYMYz0Wkvw5ctJa.a1SxFBddCuLd/v7OWyJa0eyIVQkGb9rwJTuJgXu32LM=")
 ks.loginResult()
 
 print "==================[Login Success]==================="
@@ -69,8 +69,8 @@ Cmid = kc.getProfile().mid #Gray
 Dmid = ks.getProfile().mid #Gajeel
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["u38d55ef45d94951d1f1dff174bc7ed98","ud10bc96c7857c6711d17361b45a09d13","u9f0158c9bd9e8e54f8a3e3a8eef1d529","u40f05dad87c10d9ff524d7f34683f186","u2eb272e0c9dae0b218f24bd4ce3c50d2'',''uda9c9c0789c4a65f90020febaa510f19","udd30ca451edcb179fe5d0168fcb9e938"]
-owner=["u38d55ef45d94951d1f1dff174bc7ed98","udd30ca451edcb179fe5d0168fcb9e938"]
+admin=["u21e925a9047f9310ecbe0c0f4950feab"]
+owner=["u21e925a9047f9310ecbe0c0f4950feab"]
 whitelist=[""]
 wait = {
     'contact':False,
